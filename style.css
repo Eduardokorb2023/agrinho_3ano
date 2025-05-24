@@ -92,9 +92,27 @@ footer {
     margin-top: 0;      
 }
 
-.im1{
+.im2{
     margin: auto;
     display: block;
 width: 15vw;
 background-color: #3eaf47;
+}
+.im1 {
+      margin: auto;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+.im1:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05);
 }
