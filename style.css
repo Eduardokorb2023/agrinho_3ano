@@ -14,26 +14,39 @@
 /* código omitido */
 
 /* Reset */
+h1, h2, h3 {
+    font-family: var(--font-titulo);
+    text-align: center;
+    margin: 25px 0;
+     font-size: 2rem; 
+}
 .tex {            
     text-align: center;
-    background-color: rgba(255, 193, 35, 0.588);
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 1px; 
     line-height:1.5;
     border-radius: 20px;
     width: 50%;
     margin: 0 auto;
+    
 }
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .texto {            
     text-align: center;
-    background-color: rgba(148, 213, 86, 0.751);
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 1px; 
     line-height:1.5;
     border-radius: 20px;
     width: 50%;
-    margin: 0 auto;
-
-
-    
+    margin: 0 auto;  
 }
 .titulo{
       text-align: center;
